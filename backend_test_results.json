@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-03-02T10:46:05.223885",
+  "summary": "14/15 tests passed",
+  "success_rate": 93.33333333333333,
+  "test_results": [
+    {
+      "test": "User Registration",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "User Login",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get User Profile",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Lecture",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get All Lectures",
+      "success": true,
+      "details": "Retrieved 2 lectures"
+    },
+    {
+      "test": "Get Single Lecture",
+      "success": true,
+      "details": "Views: 1"
+    },
+    {
+      "test": "Create Trade",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get All Trades",
+      "success": true,
+      "details": "Retrieved 2 trades"
+    },
+    {
+      "test": "Get Single Trade",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get User Trades",
+      "success": true,
+      "details": "Retrieved 1 user trades"
+    },
+    {
+      "test": "Create Journal Entry",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Journal Entries",
+      "success": true,
+      "details": "Retrieved 1 journal entries"
+    },
+    {
+      "test": "Get Single Journal Entry",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Delete Journal Entry",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Unauthorized Access Protection",
+      "success": false,
+      "details": "0/6 endpoints protected"
+    }
+  ]
+}

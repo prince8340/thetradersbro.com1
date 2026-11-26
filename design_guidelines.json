@@ -1,0 +1,156 @@
+{
+  "identity": {
+    "name": "The Traders Bro",
+    "persona": "The Performance Pro",
+    "tone": "Elite, Precise, High-Stakes, Community-Driven, Alpha",
+    "description": "A high-performance platform for ICT traders. Dark, sleek, and data-dense. It feels like a Bloomberg terminal met a modern SaaS."
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "name": "Electric Blue",
+        "hex": "#3b82f6",
+        "tailwind": "blue-500",
+        "usage": "Primary actions, active states, key highlights"
+      },
+      "secondary": {
+        "name": "ICT Gold",
+        "hex": "#eab308",
+        "tailwind": "yellow-500",
+        "usage": "Premium features, winning trades, ICT specific concepts"
+      },
+      "background": {
+        "name": "Deep Obsidian",
+        "hex": "#09090b",
+        "tailwind": "zinc-950",
+        "usage": "Main app background (Dark Mode default)"
+      },
+      "surface": {
+        "name": "Gunmetal",
+        "hex": "#18181b",
+        "tailwind": "zinc-900",
+        "usage": "Cards, sidebars, inputs"
+      },
+      "success": {
+        "name": "Profit Green",
+        "hex": "#22c55e",
+        "tailwind": "green-500",
+        "usage": "Winning trades, positive P/L, bullish trends"
+      },
+      "error": {
+        "name": "Stop-Loss Red",
+        "hex": "#ef4444",
+        "tailwind": "red-500",
+        "usage": "Losing trades, negative P/L, bearish trends, errors"
+      },
+      "text": {
+        "primary": "#fafafa",
+        "secondary": "#a1a1aa",
+        "muted": "#52525b"
+      }
+    },
+    "gradients": {
+      "hero_glow": "linear-gradient(180deg, rgba(59, 130, 246, 0.15) 0%, rgba(9, 9, 11, 0) 100%)",
+      "gold_shimmer": "linear-gradient(45deg, transparent 25%, rgba(234, 179, 8, 0.1) 50%, transparent 75%)"
+    }
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Manrope, sans-serif",
+      "body": "Inter, sans-serif",
+      "data": "JetBrains Mono, monospace"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-6xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-4xl font-semibold tracking-tight",
+      "h3": "text-2xl font-semibold",
+      "body_lg": "text-lg leading-relaxed",
+      "body_base": "text-base leading-relaxed",
+      "data_value": "font-mono text-sm tracking-wide"
+    }
+  },
+  "visual_enhancers": {
+    "borders": {
+      "style": "1px solid rgba(255,255,255,0.1)",
+      "radius": "rounded-none md:rounded-sm" 
+    },
+    "shadows": {
+      "card": "0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3)",
+      "glow": "0 0 20px rgba(59, 130, 246, 0.3)"
+    },
+    "effects": {
+      "glassmorphism": "backdrop-blur-xl bg-black/40 border-b border-white/10",
+      "noise": "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E\")"
+    }
+  },
+  "layout_strategies": {
+    "marketing": {
+      "grid": "grid-cols-1 md:grid-cols-12 gap-8",
+      "container": "max-w-7xl mx-auto px-6 md:px-12",
+      "spacing": "py-24 md:py-32"
+    },
+    "dashboard": {
+      "grid": "grid-cols-1 md:grid-cols-4 gap-4",
+      "widget_height": "h-full min-h-[300px]",
+      "spacing": "p-4 md:p-6"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_0_15px_rgba(59,130,246,0.5)] rounded-sm font-medium",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-sm font-medium",
+      "outline": "border border-input bg-background hover:bg-accent hover:text-accent-foreground rounded-sm"
+    },
+    "cards": {
+      "dashboard": "bg-card text-card-foreground border border-border shadow-sm rounded-lg overflow-hidden relative",
+      "feature": "bg-zinc-900/50 border border-white/5 hover:border-blue-500/50 transition-colors duration-300 rounded-xl p-8"
+    },
+    "inputs": {
+      "default": "bg-zinc-950/50 border-white/10 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 rounded-md"
+    },
+    "charts": {
+      "library": "Recharts (via Shadcn)",
+      "colors": ["#22c55e", "#ef4444", "#3b82f6", "#eab308"]
+    }
+  },
+  "images": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1762279388952-85187155e48d?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Abstract neon digital lines",
+      "usage": "Hero section background with heavy overlay"
+    },
+    "economic_calendar": {
+      "url": "https://images.unsplash.com/photo-1648275913341-7973ae7bc9b3?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Close up of clock",
+      "usage": "Decorative element for Economic Calendar section"
+    },
+    "community_mascot": {
+      "url": "https://images.unsplash.com/photo-1651293936659-281d98a46bd8?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Bull statue",
+      "usage": "Community or About section to symbolize bullish market"
+    },
+    "chart_example": {
+        "url": "https://images.unsplash.com/photo-1745509267945-b25cbb4d50ef?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Stock market candlestick chart",
+        "usage": "Trade details example or features section"
+    }
+  },
+  "instructions_to_main_agent": [
+    "FORCE DARK MODE: The app should default to dark mode. Use 'dark' class on the html/body tag.",
+    "USE SHADCN components for all interactive elements (forms, dialogs, dropdowns).",
+    "CUSTOMIZE SHADCN: Override default rounded-md to rounded-sm or rounded-none for a sharper, financial look.",
+    "NAVIGATION: Use a sticky top nav with glassmorphism (backdrop-blur-md).",
+    "CHARTS: Use Recharts for the P/L and Trade Analysis visualization.",
+    "DATA FORMATTING: All currency must be formatted as $0,0.00. All dates as 'DD MMM YYYY'.",
+    "TRADE POSTING FORM: This is complex. Break it into steps or clear sections: 1. Pair/Asset, 2. Entry/Exit/SL, 3. Analysis/Strategy, 4. Screenshots.",
+    "ECONOMIC CALENDAR: Create a clean table layout. Columns: Time, Currency, Event, Impact (High/Med/Low), Previous, Forecast, Actual.",
+    "LECTURES: Use a grid layout for video thumbnails. Detail page should focus on the video player."
+  ],
+  "universal_guidelines": [
+    "Do not use gradients for text legibility, use solid high-contrast colors.",
+    "Every interactive element must have a hover state.",
+    "Use data-testid for all key elements.",
+    "Ensure mobile responsiveness for the trade posting form is top-tier (traders use phones).",
+    "Use 'sonner' for all toast notifications."
+  ]
+}
